@@ -13,7 +13,7 @@ class MyWebViewClient extends WebViewClient {
     @Override
     public boolean shouldOverrideUrlLoading(WebView view, String url) {
         // YOUR HOSTNAME
-       String hostname = "example.com";
+       String hostname = "think-app-satya.vercel.app";
        // String hostname = Resources.getSystem().getString(R.string.web_hostname); // Doesnt works
 
         Uri uri = Uri.parse(url);
