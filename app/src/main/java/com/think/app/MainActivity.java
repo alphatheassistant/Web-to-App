@@ -1,4 +1,5 @@
-package com.example.app;
+package com.think.app;
+
 
 import android.os.Bundle;
 import android.webkit.WebView;
